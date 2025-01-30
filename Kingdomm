@@ -10,3 +10,20 @@
     <p>Loja de camisetas, tênis e mais!</p>
 </body>
 </html>
+<h2>Produtos</h2>
+<div clas="product" id="product1">
+    <h3>Camiseta Futebol</h3>
+    <p>R$139,90/p>
+    <button onclick="addToCart('Camiseta Futebol', 139,90)"Adiconar ao Carrinho</button>
+</div>
+<div class="product" id="product2">
+    <h3>Tênis Kingdom</h3>
+    <p>R$149,90</p>
+    <button onclick="addToCart('Tênis Kingdom', 149,90)">Adicionar ao Carrinho</button>
+</div>
+<h2>Carrinho de Compras</h2>
+<div id="cart">
+    <p id="cart-items">Nenhum item no carrinho.</p>
+    <p id="total">Total: R$ 0,00</p>
+    <button onclick="checkout()">Finalizar Compra</button>
+</div>
